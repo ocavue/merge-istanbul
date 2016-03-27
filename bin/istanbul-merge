@@ -16,9 +16,11 @@ var options = require('yargs')
 	.argv;
 
 var fs = require('fs');
+var path = require('path');
 var forEach = require('foreach');
 var glob = require('glob');
 var istanbul = require('istanbul-lib-coverage');
+var mkdirp = require('mkdirp');
 
 var files = [];
 forEach(options._, function (input) {
@@ -36,4 +38,6 @@ forEach(files, function (file) {
 	map.merge(JSON.parse(json));
 });
 
-fs.writeFileSync(options.out, JSON.stringify(map));
+var output = path.resolve(options.out);
+mkdirp.sync(path.dirname(output));
+fs.writeFileSync(output, JSON.stringify(map));

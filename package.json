@@ -42,6 +42,7 @@
 		"foreach": "^2.0.5",
 		"glob": "^7.0.3",
 		"istanbul-lib-coverage": "^1.0.0-alpha.4",
+		"mkdirp": "^0.5.1",
 		"yargs": "^4.2.0"
 	},
 	"devDependencies": {
