@@ -24,8 +24,8 @@
 		"posttest": "npm run --silent security",
 		"tests-only": "echo no tests yet",
 		"lint": "npm run --silent jscs && npm run --silent eslint",
-		"jscs": "jscs *.js */*.js bin/istanbul-merge",
-		"eslint": "eslint *.js */*.js bin/istanbul-merge",
+		"jscs": "jscs */*.js bin/istanbul-merge",
+		"eslint": "eslint */*.js bin/istanbul-merge",
 		"security": "nsp check"
 	},
 	"repository": {
