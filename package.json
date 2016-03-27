@@ -51,8 +51,8 @@
 		"jscs": "^2.11.0",
 		"editorconfig-tools": "^0.1.1",
 		"nsp": "^2.2.1",
-		"eslint": "^2.4.0",
-		"@ljharb/eslint-config": "^2.1.1"
+		"eslint": "^2.5.1",
+		"@ljharb/eslint-config": "^2.2.0"
 	},
 	"testling": {
 		"files": "test.js",
