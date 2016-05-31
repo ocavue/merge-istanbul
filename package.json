@@ -43,7 +43,7 @@
 		"glob": "^7.0.3",
 		"istanbul-lib-coverage": "^1.0.0-alpha.4",
 		"mkdirp": "^0.5.1",
-		"yargs": "^4.6.0"
+		"yargs": "^4.7.1"
 	},
 	"devDependencies": {
 		"tape": "^4.5.1",
