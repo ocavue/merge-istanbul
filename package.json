@@ -40,8 +40,8 @@
 	],
 	"dependencies": {
 		"foreach": "^2.0.5",
-		"glob": "^7.1.1",
-		"istanbul-lib-coverage": "^1.1.0",
+		"glob": "^7.1.2",
+		"istanbul-lib-coverage": "^1.1.1",
 		"mkdirp": "^0.5.1",
 		"yargs": "^7.1.0"
 	},
@@ -75,7 +75,7 @@
 	"engines": {
 		"node": ">= 0.4"
 	},
-    "greenkeeper": {
+	"greenkeeper": {
 		"ignore": [
 			"yargs"
 		]
