@@ -46,13 +46,13 @@
 		"yargs": "^7.1.0"
 	},
 	"devDependencies": {
-		"tape": "^4.6.3",
+		"@ljharb/eslint-config": "^12.2.1",
 		"covert": "^1.1.0",
-		"jscs": "^3.0.7",
 		"editorconfig-tools": "^0.1.1",
-		"nsp": "^2.6.3",
-		"eslint": "^3.19.0",
-		"@ljharb/eslint-config": "^11.0.0"
+		"eslint": "^4.5.0",
+		"jscs": "^3.0.7",
+		"nsp": "^2.7.0",
+		"tape": "^4.8.0"
 	},
 	"testling": {
 		"files": "test.js",
