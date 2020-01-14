@@ -8,8 +8,6 @@
 
 [![npm badge][11]][1]
 
-[![browser support][9]][10]
-
 Merge multiple istanbul coverage reports into one.
 
 ## Example
@@ -29,8 +27,6 @@ Simply clone the repo, `npm install`, and run `npm test`
 [6]: https://david-dm.org/ljharb/istanbul-merge
 [7]: https://david-dm.org/ljharb/istanbul-merge/dev-status.svg
 [8]: https://david-dm.org/ljharb/istanbul-merge#info=devDependencies
-[9]: https://ci.testling.com/ljharb/istanbul-merge.png
-[10]: https://ci.testling.com/ljharb/istanbul-merge
 [11]: https://nodei.co/npm/istanbul-merge.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/istanbul-merge.svg
 [license-url]: LICENSE
