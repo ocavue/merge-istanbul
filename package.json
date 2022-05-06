@@ -1,6 +1,6 @@
 {
 	"name": "merge-istanbul",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"type": "module",
 	"funding": {
 		"url": "https://github.com/sponsors/ocavue"
@@ -19,7 +19,7 @@
 	"description": "Merge multiple istanbul coverage reports into one",
 	"license": "MIT",
 	"bin": {
-		"merge-istanbul": "bin/merge-istanbul"
+		"merge-istanbul": "bin/merge-istanbul.mjs"
 	},
 	"scripts": {
 		"prepublish": "safe-publish-latest",
