@@ -42,10 +42,8 @@
 		"report"
 	],
 	"dependencies": {
-		"foreach": "^2.0.5",
 		"glob": "^8.0.1",
 		"istanbul-lib-coverage": "^3.2.0",
-		"mkdirp": "^1.0.4",
 		"yargs": "^17.4.1"
 	},
 	"devDependencies": {
