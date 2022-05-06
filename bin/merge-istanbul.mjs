@@ -21,9 +21,8 @@ var options = yargs(process.argv.slice(2))
 
 const mergeCoverage = async function (inputFiles, outputFile) {
 	const map = ILC.createCoverageMap({});
-	await Promise.all(inputFiles
-		.map((file) => fs.readFile(file, { encoding: 'utf-8' }))
-		.map((json) => map.merge(JSON.parse(json))));
+	const jsons = await Promise.all(inputFiles.map((file) => fs.readFile(file, { encoding: 'utf-8' })));
+	jsons.map((json) => map.merge(JSON.parse(json)));
 	await fs.mkdir(dirname(outputFile), { recursive: true });
 	await fs.writeFile(outputFile, JSON.stringify(map), { encoding: 'utf-8' });
 };
